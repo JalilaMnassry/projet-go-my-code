@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/file.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="robots" content="noindex,follow" />
+  <title>Women</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--navbar-->
+  <div class="header">
+    <div class="head">
+      <h1> <a href="file:///C:/Users/hero/Desktop/projet%20go-my-code/home.html">Online-Parfumery<span>.com</span></a></h1>
+      <hr>
+      <div class="nav">
+        <ul class="list">
+          <li class="li"><a href="home.html">Home</a></li>
+          <li class="li">
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle"
+                href="file:///C:/Users/hero/Desktop/projet%20go-my-code/home.html" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="file:///C:/Users/hero/Desktop/projet%20go-my-code/women.html">Women</a>
+                <hr>
+                <a class="dropdown-item" href="file:///C:/Users/hero/Desktop/projet%20go-my-code/men.html">Men</a>
+              </div>
+            </div>
+          </li>
+          <li class="li" data-toggle="modal" data-target="#cart"> <i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="#"> Shopping Cart (<span class="total-count"></span>)</a> </li>
+          <li class="li"><a href="about-us.html">About Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <!--List of products-->
+    <div class="row">
+      <!--Product #1-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image3.jpg" alt="parfum">
+        <div class="tittle">
+          <h6>
+            <strong>GIVENCHY</strong>
+            IRRESISTIBLE
+          </h6>
+          <h5 class="price">36,00 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="add-to-cart btn btn-primary btn-lg" data-button-action="add-to-cart" data-name="GIVENCHY" data-price="36" data-image="image3.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn" data-button-action="like-product" data-name="GIVENCHY"></span>
+        </div>
+      </div>
+      <!--Product #2-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image2.jpg" alt="" height="367px" />
+        <div class="tittle">
+          <h6>
+            <strong>SHALIMAR</strong>
+            Millésime Tonka
+          </h6>
+          <h5 class="price">74,00 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="SHALIMAR" data-price="74" data-image="image2.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+      <!--Product #3-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image4.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>MISS DIOR</strong>
+            Purifying rose jelly for hands
+          </h6>
+          <h5 class="price">29,60 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="MISS-DIOR" data-price="29.6" data-image="image4.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+      
+      <!--Product #4-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image5.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>YVES SAINT LAURENT COUTURE LACQUER</strong>
+            Nail polish
+          </h6>
+          <h5 class="price">19,60 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="COUTURE-LACQUER" data-price="19.6" data-image="image5.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+
+       <!--Product #5-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image8.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>MIMITIKA</strong>
+            SUN OIL SPF50
+          </h6>
+          <h5 class="price">6,80 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="MIMITIKA" data-price="6.8" data-image="image8.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+
+      <!--Product #6-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image9.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>LANCASTER</strong>
+            SUNSPORT FACE GEL SPF30
+          </h6>
+          <h5 class="price">20,50 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="LANCASTER" data-price="20.5" data-image="image9.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+
+      <!--Product #7-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image10.png" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>YVES SAINT LAURENT</strong>
+            ROUGE PUR COUTURE THE BOLD
+          </h6>
+          <h5 class="price">28,80 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="YVES-SAINT-LAURENT" data-price="28.8" data-image="image10.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+
+      <!--Product #8-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image12.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>ROUGE DIOR FOREVER LIQUID</strong>
+            Transfer-free liquid lipstick -Ultra-pigmented matte
+          </h6>
+          <h5 class="price">28,10 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="ROUGE-DIOR-FOREVER-LIQUID" data-price="28.1" data-image="image12.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+
+      <!--Product #9-->
+      <div class="col-md-4">
+        <img class="Photo" src="./image/image13.jpg" alt="" />
+        <div class="tittle">
+          <h6>
+            <strong>LANCOME HYPNOSE</strong>
+            Mascara-sérum Volume – Volume Soin Sculptural & Revitalisant
+          </h6>
+          <h5 class="price">27,70 €</h5>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary btn-lg add-to-cart" data-button-action="add-to-cart" data-name="LANCOME-HYPNOSE" data-price="27.7" data-image="image13.jpg" type="submit" id="bouton">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Add to cart
+          </button>
+          <span class="like-btn"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <!--footer-->
+  <div class="row" id="footer">
+    <div class="col-md-4">
+      <div>
+        <span class=" h3">About Us</span>
+      </div>
+      <ul class="uls">
+        <li>
+          <a href="file:///C:/Users/hero/Desktop/projet%20go-my-code/about-us.html">
+            Terms of Sales
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/hero/Desktop/projet%20go-my-code/about-us.html">
+            Who are we ?
+          </a>
+        </li>
+        <li>
+          <a id="link-cms-page-15-2" class="cms-page-link" href="file:///C:/Users/hero/Desktop/projet%20go-my-code/about-us.html">
+            Legal Notice
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div>
+        <span class="h3">Follow Us</span>
+      </div>
+      <ul style="padding-top: 20px; padding-left: 0px;">
+        <li>
+          <a href="https://www.facebook.com/"><img
+              src="https://devpeps.parfumerie-en-ligne.com/img/social/social_fb.jpg" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/?hl=fr"><img
+              src="https://devpeps.parfumerie-en-ligne.com/img/social/social_ins.jpg" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div>
+        <span class="h3">Our customer service</span>
+      </div>
+      <p><a href="#">04 90 39 23 43</a></p>
+      <p>of Monday to friday<br />of 9h to 12h and of 14h to 16h</p>
+      <p><span style="background-color: #ffffff"><a href="#"><span
+              style="background-color: #ffffff">contact@online-perfumery.com</span></a></span></p>
+      <p>Online Perfumery<br />
+        <a href="#">38
+          place of the Republic 84700 Sorgues</a>
+      </p>
+
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-" id="exampleModalLabel">Shopping Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="show-cart">
+          </div>
+          <div class="prices">TOTAL PRICE: <span class="total-cart"> </span> €</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <script src="./js/file.js"></script>
+</body>
+
+</html>
